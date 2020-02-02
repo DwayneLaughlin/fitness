@@ -1,0 +1,29 @@
+{
+  "name": "fitness",
+  "version": "1.0.0",
+  "description": "A fitness tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwayneLaughlin/fitness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DwayneLaughlin/fitness/issues"
+  },
+  "homepage": "https://github.com/DwayneLaughlin/fitness#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "mongo": "^0.1.0",
+    "mongojs": "^3.1.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
