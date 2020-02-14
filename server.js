@@ -2,6 +2,16 @@ const express = require("express");
 const mongojs = require("mongojs");
 const logger = require("morgan");
 const path = require("path");
+const mongoose = require("mongoose");
+
+mongoose.Promise = global.Promise;
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://<root>:<root1234>@ds019698.mlab.com:19698/heroku_f1l50gtm",
+  {
+    useMongoClient : true
+  }
+);
+
 
 const app = express();
 
